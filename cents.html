@@ -1,0 +1,50 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Assignment 4 </title>
+   	<link rel="stylesheet" href="cents.css">
+    <script src="cents.js" defer></script>
+</head>
+<body>
+<main>
+ 
+  <div id="box" >
+  <h1>Change Calculator</h1>
+
+  <!-- use input for the user to enter the number-->
+  <label1>Enter a number, in cents, that you want to change:</label1>
+  <input type="text" id="cents" />
+  <!-- use a button, have to process to change it using onclick so it occurs when user presses the button-->
+  <input type="button" value="Calculate" name="calculate"  id="calculate" 
+    onclick=processcoins() />
+  <br><br>
+	
+  <!-- use labels for each amount and also an input so as it can show how many coins
+  make it disabled so as user cant input anything into it-->
+    <label>Ten Euro (€10):</label>
+    <input type="text" id="teneuro" disabled><br>				
+    <label>Five Euro (€5):</label>
+    <input type="text" id="fiveeuro" disabled><br>
+    <label>Two Euro (€2):</label>
+    <input type="text" id="twoeuro" disabled><br>
+    <label>One Euro (€1):</label>
+    <input type="text" id="oneeuro" disabled><br>
+    <label>Fifty Cent (€0.50):</label>
+    <input type="text" id="fiftycent" disabled><br>			
+    <label>Twenty Cent (€0.20):</label>
+    <input type="text" id="twentycent" disabled><br>			
+    <label>Ten Cent (€0.10):</label>
+    <input type="text" id="tencent" disabled><br>
+    <label>Five Cent (€0.05:</label>
+    <input type="text" id="fivecent" disabled><br>				
+    <label>Two Cent (€0.02):</label>
+    <input type="text" id="twocent" disabled><br>	
+    <label>One Cent (€0.01):</label>
+    <input type="text" id="onecent" disabled><br>							
+	  
+   
+  </div>
+
+</main>
+</body>
+</html>

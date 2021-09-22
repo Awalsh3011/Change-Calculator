@@ -1,0 +1,57 @@
+/* set a background image with the url */
+body {
+    font-family: Arial;
+    background-image: url("https://www.tripsavvy.com/thmb/nDPv4cx32zoUfJsr5sh36QH2WIQ=/950x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/eurosGettyIDanitaDelimont-5932e1283df78c08ab04de54.jpg");
+    margin: 0 auto;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: "Bickham Script Pro 3";
+  color: white;
+  line-height: 1.2;
+  margin-top: 0px;
+  margin-left: 200px;
+}
+
+label1 {
+  position: absolute;
+  font-size: 20px;
+  font-family: "Azo Sans";
+  color: white;
+}
+
+label {
+  position: absolute;
+  font-size: 20px;
+  font-family: "Azo Sans";
+  color: white;
+  margin-left: 100px;
+}
+
+input {
+  margin-left: 300px;
+  margin-bottom: .7em;   
+}
+
+/*set a box behind the writing so as it shows up */
+#box{
+  background-color: black;
+  height: 550px;
+  width: 800px;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+#calculate{
+  margin-left: 50px;
+  height: 30px;
+  color: blueviolet;
+  background-color: white; 
+  font-size: 20px;
+}
+
+/* setting the margin on the box where the user inputs the number */
+#cents{
+  margin-left: 425px;
+}
